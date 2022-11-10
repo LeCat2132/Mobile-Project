@@ -1,10 +1,14 @@
 package com.example.weatherapp.Activity;
 
+import static androidx.core.view.ViewCompat.animate;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.wear.widget.SwipeDismissFrameLayout;
+
 import java.util.ArrayList;
 import java.util.List;
 import com.example.weatherapp.Adapter.Item;
@@ -32,6 +36,7 @@ public class Weather_hourly extends Activity {
         setVariables();
         InitRecylerView();
     }
+
 
     private void setupDismissFrameLayout() {
             binding.draggableFrame.setSwipeable(true);

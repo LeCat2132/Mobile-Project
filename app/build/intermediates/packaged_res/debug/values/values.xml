@@ -16,6 +16,7 @@
     </string-array>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/roboto_thin</item>
+        <item>@font/roboto_thin</item>
     </array>
     <color name="TextColor">#FFFFFFFF</color>
     <color name="black">#FF000000</color>

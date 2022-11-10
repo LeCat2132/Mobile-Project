@@ -10,14 +10,11 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
 import java.text.DateFormat;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.weatherapp.NoteApp.Note;
 import com.example.weatherapp.R;
 
 import io.realm.Realm;
@@ -50,10 +47,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         String formatedTime = DateFormat.getDateTimeInstance().format(note.getCreatedTime());
         holder.timeOutput.setText(formatedTime);
 
-        holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onLongClick(View v) {
-
+            public void onClick(View v) {
                 PopupMenu menu = new PopupMenu(context,v);
                 menu.getMenu().add("EDIT");
                 menu.getMenu().add("DELETE");
@@ -78,7 +74,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 });
                 menu.show();
 
-                return true;
             }
         });
 

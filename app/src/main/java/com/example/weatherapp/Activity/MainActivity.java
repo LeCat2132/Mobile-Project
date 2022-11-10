@@ -181,10 +181,9 @@ public class MainActivity extends AppCompatActivity {
 
         Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone(response.getTimezone()));
         DateFormat formatter = new SimpleDateFormat("EEEE");
-        DateFormat sdf = new SimpleDateFormat("E, dd MMM yyyy");
         List<String> dayInWeek = new ArrayList<>();
 
-        binding.contentMainLayout.dateTextView.setText(sdf.format(calendar.getTime()));
+        binding.contentMainLayout.dateTextView.setText(formatter.format(calendar.getTime()));
 
         binding.contentMainLayout.todayMaterialCard.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -192,7 +191,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, Weather_hourly.class);
                 intent.putExtra("Data", new Gson().toJson(response));
                 intent.putExtra("Position", "" + -1);
+                calendar.add(Calendar.DATE, 1);
                 String currentDay = formatter.format(calendar.getTime());
+                calendar.add(Calendar.DATE, -1);
                 Item item = (new Item(currentDay,
                         response.WeatherCodeItem(response.getDaily().getWeathercode().get(0)),
                         response.getDaily().getSunrise().get(0).substring(11),

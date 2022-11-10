@@ -4,12 +4,12 @@
         "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\drawable-v24\\ic_clear_day.png"
     },
     {
-        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\layout_dialog_custom_progress.xml.flat",
-        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\dialog_custom_progress.xml"
-    },
-    {
         "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\layout_dialog_custom_progress.xml.flat",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\dialog_custom_progress.xml"
     },
     {
         "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\mipmap-hdpi_add_note.png.flat",
@@ -28,10 +28,6 @@
         "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\weather_hourly.xml"
     },
     {
-        "merged": "com.example.weatherapp-merged_res-40:/layout_activity_createnote.xml.flat",
-        "source": "com.example.weatherapp-main-42:/layout/activity_createnote.xml"
-    },
-    {
         "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\raw_clear_day.json.flat",
         "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\raw\\clear_day.json"
     },
@@ -42,6 +38,10 @@
     {
         "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\raw_rainy_weather.json.flat",
         "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\raw\\rainy_weather.json"
+    },
+    {
+        "merged": "com.example.weatherapp-merged_res-40:/layout_item_view.xml.flat",
+        "source": "com.example.weatherapp-main-42:/layout/item_view.xml"
     },
     {
         "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\drawable-v24_ic_broken_clouds.png.flat",
@@ -210,6 +210,10 @@
     {
         "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\layout_item.xml.flat",
         "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\raw_foggy.json.flat",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\raw\\foggy.json"
     },
     {
         "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-merged_res-40:\\layout_item_view.xml.flat",
