@@ -1,0 +1,174 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:9:5-75
+15-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:9:22-73
+16
+17    <application
+17-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:12:5-57:19
+18        android:allowBackup="true"
+18-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:13:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] C:\Users\phuon\.gradle\caches\transforms-3\0a3e547d8b89eb454788ffca49b1c3b2\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:14:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:15:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:16:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:18:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:19:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:20:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.WeatherApp"
+29-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:21:9-48
+30        android:usesCleartextTraffic="true" >
+30-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:17:9-44
+31        <activity
+31-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:24:9-27:54
+32            android:name="com.example.weatherapp.Activity.Weather_hourly"
+32-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:25:13-52
+33            android:exported="true"
+33-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:26:13-36
+34            android:theme="@style/TransitionTheme" />
+34-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:27:13-51
+35        <activity
+35-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:29:9-32:53
+36            android:name="com.example.weatherapp.NoteApp.AddNoteActivity"
+36-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:30:13-74
+37            android:exported="true"
+37-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:31:13-36
+38            android:theme="@style/TransitionTheme" />
+38-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:32:13-51
+39        <activity
+39-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:34:9-37:53
+40            android:name="com.example.weatherapp.NoteApp.NoteMainActivity"
+40-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:35:13-75
+41            android:exported="true"
+41-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:36:13-36
+42            android:theme="@style/TransitionTheme" />
+42-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:37:13-51
+43        <activity
+43-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:39:9-52:20
+44            android:name="com.example.weatherapp.Activity.MainActivity"
+44-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:40:13-50
+45            android:exported="true"
+45-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:41:13-36
+46            android:screenOrientation="portrait" >
+46-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:42:13-49
+47            <intent-filter>
+47-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:43:13-47:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:44:17-69
+48-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:44:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:46:17-77
+50-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:46:27-74
+51            </intent-filter>
+52
+53            <meta-data
+53-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:49:13-51:36
+54                android:name="android.app.lib_name"
+54-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:50:17-52
+55                android:value="" />
+55-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:51:17-33
+56        </activity>
+57
+58        <meta-data
+58-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:54:9-56:57
+59            android:name="preloaded_fonts"
+59-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:55:13-43
+60            android:resource="@array/preloaded_fonts" />
+60-->C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:56:13-54
+61
+62        <service
+62-->[androidx.room:room-runtime:2.4.3] C:\Users\phuon\.gradle\caches\transforms-3\cb2dc5d0c538795678ac0fd0d6085a78\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+63            android:name="androidx.room.MultiInstanceInvalidationService"
+63-->[androidx.room:room-runtime:2.4.3] C:\Users\phuon\.gradle\caches\transforms-3\cb2dc5d0c538795678ac0fd0d6085a78\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+64            android:directBootAware="true"
+64-->[androidx.room:room-runtime:2.4.3] C:\Users\phuon\.gradle\caches\transforms-3\cb2dc5d0c538795678ac0fd0d6085a78\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+65            android:exported="false" />
+65-->[androidx.room:room-runtime:2.4.3] C:\Users\phuon\.gradle\caches\transforms-3\cb2dc5d0c538795678ac0fd0d6085a78\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+66
+67        <activity
+67-->[com.karumi:dexter:6.0.1] C:\Users\phuon\.gradle\caches\transforms-3\7664c2019118cc12c4664dcc6f59efd0\transformed\dexter-6.0.1\AndroidManifest.xml:27:9-29:72
+68            android:name="com.karumi.dexter.DexterActivity"
+68-->[com.karumi:dexter:6.0.1] C:\Users\phuon\.gradle\caches\transforms-3\7664c2019118cc12c4664dcc6f59efd0\transformed\dexter-6.0.1\AndroidManifest.xml:28:13-60
+69            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+69-->[com.karumi:dexter:6.0.1] C:\Users\phuon\.gradle\caches\transforms-3\7664c2019118cc12c4664dcc6f59efd0\transformed\dexter-6.0.1\AndroidManifest.xml:29:13-69
+70
+71        <uses-library
+71-->[androidx.wear:wear:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\f4a4c747865ee8416167633513af3df7\transformed\wear-1.2.0\AndroidManifest.xml:25:9-27:40
+72            android:name="com.google.android.wearable"
+72-->[androidx.wear:wear:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\f4a4c747865ee8416167633513af3df7\transformed\wear-1.2.0\AndroidManifest.xml:26:13-55
+73            android:required="false" />
+73-->[androidx.wear:wear:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\f4a4c747865ee8416167633513af3df7\transformed\wear-1.2.0\AndroidManifest.xml:27:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phuon\.gradle\caches\transforms-3\ac54f87c1e9ad26d778ccf6c3ef1e50e\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phuon\.gradle\caches\transforms-3\ac54f87c1e9ad26d778ccf6c3ef1e50e\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phuon\.gradle\caches\transforms-3\ac54f87c1e9ad26d778ccf6c3ef1e50e\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\phuon\.gradle\caches\transforms-3\ac54f87c1e9ad26d778ccf6c3ef1e50e\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\phuon\.gradle\caches\transforms-3\afddd7a2d69810b1494c0f3b93bbc2c2\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\phuon\.gradle\caches\transforms-3\afddd7a2d69810b1494c0f3b93bbc2c2\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\phuon\.gradle\caches\transforms-3\afddd7a2d69810b1494c0f3b93bbc2c2\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\7591db4de326a3393fb3dc6b6ee672f0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\7591db4de326a3393fb3dc6b6ee672f0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+86            android:authorities="com.example.weatherapp.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\7591db4de326a3393fb3dc6b6ee672f0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\7591db4de326a3393fb3dc6b6ee672f0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\7591db4de326a3393fb3dc6b6ee672f0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\7591db4de326a3393fb3dc6b6ee672f0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\7591db4de326a3393fb3dc6b6ee672f0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\phuon\.gradle\caches\transforms-3\be2ef02d5a21bfea6eafe66b75b83431\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\phuon\.gradle\caches\transforms-3\be2ef02d5a21bfea6eafe66b75b83431\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\phuon\.gradle\caches\transforms-3\be2ef02d5a21bfea6eafe66b75b83431\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+94        </provider>
+95    </application>
+96
+97</manifest>

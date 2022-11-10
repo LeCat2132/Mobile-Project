@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.SwipeDismissFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draggable_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layoutDirection="locale"
+            android:orientation="vertical"
+            tools:context=".ui.activity.MainActivity">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="2dp">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true"
+                    android:scrollbars="none"
+                    android:background="@drawable/adaptercolor">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/spacing_large">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/day_name_text_view"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/roboto_thin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="40sp"
+                                android:textStyle="bold" />
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:id="@+id/hourly_animation_view"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                app:lottie_autoPlay="true"
+                                app:lottie_loop="true" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical">
+
+                                    <androidx.appcompat.widget.AppCompatImageView
+                                        style="@style/IconInColoredCard"
+                                        android:layout_width="36dp"
+                                        android:layout_height="36dp"
+                                        android:gravity="center"
+                                        app:srcCompat="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+                                    <androidx.appcompat.widget.AppCompatTextView
+                                        android:id="@+id/min_temp_text_view"
+                                        style="@style/TextViewInColoredCard"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:layoutDirection="ltr"
+                                        android:fontFamily="@font/roboto_thin"
+                                        android:textSize="30sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical">
+
+                                    <androidx.appcompat.widget.AppCompatImageView
+                                        style="@style/IconInColoredCard"
+                                        android:layout_width="36dp"
+                                        android:layout_height="36dp"
+                                        android:gravity="center"
+                                        app:srcCompat="@drawable/ic_keyboard_arrow_up_black_24dp" />
+
+                                    <androidx.appcompat.widget.AppCompatTextView
+                                        android:id="@+id/max_temp_text_view"
+                                        style="@style/TextViewInColoredCard"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/roboto_thin"
+                                        android:gravity="center"
+                                        android:layoutDirection="ltr"
+                                        android:textSize="30sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:fontFamily="@font/roboto_thin"
+                                android:textColor="@color/TextColor"
+                                android:text="Sunrise: "
+                                android:textSize="@dimen/text_size"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:id="@+id/txtSunrise"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/text_size"
+                                android:fontFamily="@font/roboto_thin"
+                                android:textColor="@color/TextColor"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:gravity="center"
+                                android:text="Sunset: "
+                                android:fontFamily="@font/roboto_thin"
+                                android:textSize="@dimen/text_size"
+                                android:textColor="@color/TextColor"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:id="@+id/txtSunset"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/roboto_thin"
+                                android:textSize="@dimen/text_size"
+                                android:textColor="@color/TextColor"
+                                android:textStyle="bold"/>
+                        </LinearLayout>
+
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/spacing_large"
+                            android:layout_marginEnd="@dimen/spacing_large"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="@dimen/spacing_medium"
+                            app:cardCornerRadius="30dp"
+                            app:cardElevation="2dp">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recycler_view"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/adaptercolor"
+                                    android:orientation="horizontal" />
+
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.wear.widget.SwipeDismissFrameLayout>

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\weather_hourly.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\weather_hourly.xml"
+    },
+    {
+        "merged": "com.example.weatherapp-mergeDebugResources-39:/layout/activity_createnote.xml",
+        "source": "com.example.weatherapp-main-42:/layout/activity_createnote.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\weather_day_item.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\weather_day_item.xml"
+    },
+    {
+        "merged": "com.example.weatherapp-mergeDebugResources-39:/layout/note_activity_main.xml",
+        "source": "com.example.weatherapp-main-42:/layout/note_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\activity_createnote.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\activity_createnote.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\dialog_custom_progress.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\dialog_custom_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\note_activity_main.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\note_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\toolbar.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\content_main.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\item_view.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\item_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\weather_hourly_item.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\weather_hourly_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-mergeDebugResources-39:\\layout\\item.xml",
+        "source": "C:\\Users\\phuon\\.gradle\\daemon\\7.4\\com.example.weatherapp-main-42:\\layout\\item.xml"
+    }
+]

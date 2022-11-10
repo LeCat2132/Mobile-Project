@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="margin">100dp</string>
+    <string name="TextSize">15dp</string>
+    
+    <string name="search_hint">Type the city you want to look up</string>
+    <string name="current_label">Current</string>
+    <string name="wind_label">Wind</string>
+    <string name="next_4_days_hourly">Next 7 days</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="zero_label">0%d</string>
+</resources>

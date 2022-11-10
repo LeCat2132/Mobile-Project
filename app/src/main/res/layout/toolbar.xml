@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="locale">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        app:contentInsetStart="0dp"
+        android:background="@color/TextColor">
+
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            app:defaultQueryHint="Search location here" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/city_name_text_view"
+                android:fontFamily="@font/roboto_thin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="123"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/black"
+                app:layout_anchorGravity="center" />
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+</FrameLayout>
