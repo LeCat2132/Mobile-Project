@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_custom_calendar"
+    android:background="@drawable/mountain"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/white"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/previousBtn"
+            android:background="@drawable/ic_baseline_skip_previous_24"
+            android:contentDescription="@string/previous_date" />
+        <TextView
+            android:id="@+id/currentDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/current_date"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_thin"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_weight="3"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/nextBtn"
+            android:background="@drawable/ic_baseline_skip_next_24"
+            android:contentDescription="@string/next_date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/sun"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_thin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/mon"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_thin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tue"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_thin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/wed"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_thin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/thu"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_thin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fri"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_thin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/sat"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_thin"/>
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="7" />
+
+
+</LinearLayout>

@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
@@ -37,6 +38,10 @@
             android:exported="true"
             android:theme="@style/TransitionTheme" />
         <activity
+            android:name="com.example.weatherapp.Planner.Planner_main"
+            android:exported="true"
+            android:theme="@style/TransitionTheme" />
+        <activity
             android:name="com.example.weatherapp.NoteApp.NoteMainActivity"
             android:exported="true"
             android:theme="@style/TransitionTheme" />
@@ -58,6 +63,13 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <receiver
+            android:name="com.example.weatherapp.Planner.MyAlertBroadcast"
+            android:enabled="true"
+            android:exported="true"
+            android:label="MyAlertBroadcast"
+            android:permission="TODO" />
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"

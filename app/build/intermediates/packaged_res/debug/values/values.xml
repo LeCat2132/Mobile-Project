@@ -24,7 +24,7 @@
     <color name="colorAccent">#D81B60</color>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#dddddd</color>
-    <color name="colorPrimaryDarkNight">#141d26</color>
+    <color name="colorPrimaryDarkNight">#133557</color>
     <color name="colorPrimaryNight">#263238</color>
     <color name="color_1">#D0E6FF</color>
     <color name="color_2">#53CDD8</color>
@@ -34,6 +34,7 @@
     <color name="green">#CFFF8D</color>
     <color name="green_success">#155724</color>
     <color name="grey_10">#e6e6e6</color>
+    <color name="light_pink">#FFFFECEF</color>
     <color name="material_blue">#6452f0</color>
     <color name="orange">#EE5A3B</color>
     <color name="overlay_dark_50">#40000000</color>
@@ -41,12 +42,12 @@
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="purple_800">#EA047E</color>
-    <color name="red">#E64848</color>
+    <color name="red">#FA1500</color>
     <color name="scrim">#99323232</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="transparent">#00FFFFFF</color>
-    <color name="white">#C7CFD5</color>
+    <color name="white">#FFFFFF</color>
     <color name="yellow">#FDFF00</color>
     <dimen name="drag_dismiss_distance">112dp</dimen>
     <dimen name="spacing_large">15dp</dimen>
@@ -59,12 +60,22 @@
     <dimen name="text_size">20dp</dimen>
     <string name="TextSize">15dp</string>
     <string name="app_name">Weather App</string>
+    <string name="current_date">Current Date</string>
     <string name="current_label">Current</string>
+    <string name="fri">Fri</string>
     <string name="margin">100dp</string>
+    <string name="mon">Mon</string>
     <string name="next_4_days_hourly">Next 7 days</string>
+    <string name="next_date">Next Date</string>
+    <string name="previous_date">Previous Date</string>
+    <string name="sat">Sat</string>
     <string name="search_hint">Type the city you want to look up</string>
+    <string name="sun">Sun</string>
     <string name="sunrise">Sunrise</string>
     <string name="sunset">Sunset</string>
+    <string name="thu">Thu</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
     <string name="wind_label">Wind</string>
     <string name="zero_label">0%d</string>
     <style name="AppTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
@@ -105,6 +116,12 @@
         
         <item name="android:textColorHint">@android:color/black</item>
 
+    </style>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog">
+        
+        <item name="colorAccent">#BECBEC</item>
+        
+        <item name="android:background">#BECBEC</item>
     </style>
     <style name="SubTextViewInColoredCard">
         <item name="android:textColor">@color/grey_10</item>

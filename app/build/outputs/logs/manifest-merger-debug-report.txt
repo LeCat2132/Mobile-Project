@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
 MERGED from [io.realm:realm-android-library:10.11.1] C:\Users\phuon\.gradle\caches\transforms-3\6d1dfdf6ad65ee041a42ea542de65d82\transformed\realm-android-library-10.11.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-adapters:7.3.0] C:\Users\phuon\.gradle\caches\transforms-3\25feb34686f5a8cb5db3ba8fe53d0c09\transformed\databinding-adapters-7.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-runtime:7.3.0] C:\Users\phuon\.gradle\caches\transforms-3\c321a48c8fcb8b0f9a832c0eaadcc79e\transformed\databinding-runtime-7.3.0\AndroidManifest.xml:2:1-9:12
@@ -17,6 +17,7 @@ MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\phuon\.gradl
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\phuon\.gradle\caches\transforms-3\db4e0cd0c03d64beb4ff88f57f0345fe\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.wear:wear:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\f4a4c747865ee8416167633513af3df7\transformed\wear-1.2.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\phuon\.gradle\caches\transforms-3\91c6c69efc6e793731a2173bae6329ca\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\b910b8c354e2c1f1c43959d855ca5def\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\phuon\.gradle\caches\transforms-3\5f2e30558b4ca5df10caea22751c37c6\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\e9e9f8c32f79629266d31f92a9087b09\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\phuon\.gradle\caches\transforms-3\2285a1e1d28bd891ed0ab913986d0dd9\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
@@ -49,7 +50,6 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\phuon\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\phuon\.gradle\caches\transforms-3\c630d7e1fdaac4d68579ec3a74e0b3cf\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\a7340ad8b68c90696528ba5855c718ef\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\cba55e7a0025eec918ca15d337bf8f42\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\b910b8c354e2c1f1c43959d855ca5def\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\0558fb78051e0c25d337cba48f57adf2\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\phuon\.gradle\caches\transforms-3\332d4474da37a15df4669617b2bacbaa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\phuon\.gradle\caches\transforms-3\3fd8a1ad9cf2c2c1d72b23bf612bab38\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -61,22 +61,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\phuon\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\634a0e24263985060d267bd4e560f5a1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\e37952c9c07de5da144ee4496a9dfd0e\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\phuon\.gradle\caches\transforms-3\d2bdfd0398792088c80934f976823c27\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
 	package
 		INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
 		INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
 		INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:1-74:12
 		INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:2:11-69
@@ -92,16 +92,20 @@ uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:7:5-78
 	android:name
 		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:8:5-66
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:9:5-75
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:10:5-75
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:9:22-73
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:10:22-73
 application
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:12:5-57:19
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:13:5-72:19
 MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\phuon\.gradle\caches\transforms-3\cb2dc5d0c538795678ac0fd0d6085a78\transformed\room-runtime-2.4.3\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.4.3] C:\Users\phuon\.gradle\caches\transforms-3\cb2dc5d0c538795678ac0fd0d6085a78\transformed\room-runtime-2.4.3\AndroidManifest.xml:24:5-29:19
 MERGED from [com.karumi:dexter:6.0.1] C:\Users\phuon\.gradle\caches\transforms-3\7664c2019118cc12c4664dcc6f59efd0\transformed\dexter-6.0.1\AndroidManifest.xml:26:5-30:19
@@ -135,79 +139,101 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\phuon\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\phuon\.gradle\caches\transforms-3\0a3e547d8b89eb454788ffca49b1c3b2\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:19:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:16:9-54
 	android:roundIcon
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:20:9-54
 	tools:targetApi
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:22:9-29
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:23:9-29
 	android:icon
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:17:9-43
 	android:allowBackup
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:21:9-48
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:22:9-48
 	android:dataExtractionRules
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:14:9-65
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:15:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:17:9-44
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:18:9-44
 activity#com.example.weatherapp.Activity.Weather_hourly
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:24:9-27:54
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:25:9-28:54
 	android:exported
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:27:13-36
 	android:theme
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:27:13-51
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:28:13-51
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:25:13-52
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:26:13-52
 activity#com.example.weatherapp.NoteApp.AddNoteActivity
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:29:9-32:53
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:30:9-33:53
 	android:exported
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:32:13-36
 	android:theme
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:32:13-51
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:33:13-51
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:30:13-74
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:31:13-74
+activity#com.example.weatherapp.Planner.Planner_main
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:35:9-38:53
+	android:exported
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:37:13-36
+	android:theme
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:38:13-51
+	android:name
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:36:13-71
 activity#com.example.weatherapp.NoteApp.NoteMainActivity
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:34:9-37:53
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:40:9-43:53
 	android:exported
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:42:13-36
 	android:theme
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:37:13-51
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:43:13-51
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:35:13-75
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:41:13-75
 activity#com.example.weatherapp.Activity.MainActivity
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:39:9-52:20
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:45:9-58:20
 	android:screenOrientation
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:48:13-49
 	android:exported
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:41:13-36
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:47:13-36
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:40:13-50
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:46:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:43:13-47:29
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:49:13-53:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:44:17-69
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:44:25-66
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:50:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:46:17-77
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:52:17-77
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:46:27-74
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:52:27-74
 meta-data#android.app.lib_name
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:49:13-51:36
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:55:13-57:36
 	android:value
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:51:17-33
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:57:17-33
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:50:17-52
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:56:17-52
 meta-data#preloaded_fonts
-ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:54:9-56:57
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:60:9-62:57
 	android:resource
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:56:13-54
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:62:13-54
 	android:name
-		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:55:13-43
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:61:13-43
+receiver#com.example.weatherapp.Planner.MyAlertBroadcast
+ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:64:9-70:47
+	android:enabled
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:68:13-35
+	android:label
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:66:13-45
+	android:exported
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:67:13-36
+	tools:ignore
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:70:13-44
+	android:permission
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:69:13-38
+	android:name
+		ADDED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml:65:13-75
 uses-sdk
 INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\phuon\source\Android\WeatherApp\app\src\main\AndroidManifest.xml
@@ -238,6 +264,8 @@ MERGED from [androidx.wear:wear:1.2.0] C:\Users\phuon\.gradle\caches\transforms-
 MERGED from [androidx.wear:wear:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\f4a4c747865ee8416167633513af3df7\transformed\wear-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\phuon\.gradle\caches\transforms-3\91c6c69efc6e793731a2173bae6329ca\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\phuon\.gradle\caches\transforms-3\91c6c69efc6e793731a2173bae6329ca\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\b910b8c354e2c1f1c43959d855ca5def\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\b910b8c354e2c1f1c43959d855ca5def\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\phuon\.gradle\caches\transforms-3\5f2e30558b4ca5df10caea22751c37c6\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\phuon\.gradle\caches\transforms-3\5f2e30558b4ca5df10caea22751c37c6\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\e9e9f8c32f79629266d31f92a9087b09\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -302,8 +330,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phuon\.gradle\
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\a7340ad8b68c90696528ba5855c718ef\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\cba55e7a0025eec918ca15d337bf8f42\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\phuon\.gradle\caches\transforms-3\cba55e7a0025eec918ca15d337bf8f42\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\b910b8c354e2c1f1c43959d855ca5def\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\b910b8c354e2c1f1c43959d855ca5def\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\0558fb78051e0c25d337cba48f57adf2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\phuon\.gradle\caches\transforms-3\0558fb78051e0c25d337cba48f57adf2\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\phuon\.gradle\caches\transforms-3\332d4474da37a15df4669617b2bacbaa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41

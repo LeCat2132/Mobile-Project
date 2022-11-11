@@ -8,6 +8,16 @@
     <string name="wind_label">Wind</string>
     <string name="next_4_days_hourly">Next 7 days</string>
     <string name="sunrise">Sunrise</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="previous_date">Previous Date</string>
+    <string name="current_date">Current Date</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="next_date">Next Date</string>
     <string name="sunset">Sunset</string>
     <string name="zero_label">0%d</string>
 </resources>

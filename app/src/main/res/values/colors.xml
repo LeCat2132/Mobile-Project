@@ -7,7 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="TextColor">#FFFFFFFF</color>
-    <color name="white">#C7CFD5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FA1500</color>
     <color name="gray">#B9D6C9C9</color>
     <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#dddddd</color>
@@ -17,10 +18,11 @@
     <color name="grey_10">#e6e6e6</color>
     <color name="green_success">#155724</color>
     <color name="colorPrimaryNight">#263238</color>
-    <color name="colorPrimaryDarkNight">#141d26</color>
+    <color name="colorPrimaryDarkNight">#133557</color>
     <color name="scrim">#99323232</color>
     <color name="transparent">#00FFFFFF</color>
     <color name="green">#CFFF8D</color>
+    <color name="light_pink">#FFFFECEF</color>
     <color name="purple_800">#EA047E</color>
     <color name="color_1">#D0E6FF</color>
     <color name="color_2">#53CDD8</color>
@@ -29,5 +31,4 @@
     <color name="orange">#EE5A3B</color>
     <color name="blue">#2192FF</color>
     <color name="yellow">#FDFF00</color>
-    <color name="red">#E64848</color>
 </resources>

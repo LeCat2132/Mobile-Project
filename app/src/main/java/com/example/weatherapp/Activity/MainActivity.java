@@ -39,6 +39,7 @@ import com.example.weatherapp.Adapter.MyAdapter;
 import com.example.weatherapp.Adapter.OnItemClickListener;
 import com.example.weatherapp.Network_Check;
 import com.example.weatherapp.NoteApp.NoteMainActivity;
+import com.example.weatherapp.Planner.Planner_main;
 import com.example.weatherapp.R;
 import com.example.weatherapp.TextViewFactory;
 import com.example.weatherapp.databinding.ActivityMainBinding;
@@ -128,13 +129,14 @@ public class MainActivity extends AppCompatActivity {
     private void getCurrentWeather(String cityName) {
         Geocoder geocoder = new Geocoder(MainActivity.this);
         List<Address> addressList;
+        String city = cityName;
         try {
             addressList = geocoder.getFromLocationName(cityName, 1);
 
             if (addressList != null && addressList.size() != 0){
                 latitude = addressList.get(0).getLatitude();
                 longitude = addressList.get(0).getLongitude();
-                binding.toolbarLayout.cityNameTextView.setText(cityName);
+
 
                 if (latitude == 0 && longitude == 0) {
                     return;
@@ -142,6 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     CallAPIloginAsyncTask getData = new CallAPIloginAsyncTask();
                     getData.execute();
+
                 }
             }
             else {
@@ -152,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-
+        binding.toolbarLayout.cityNameTextView.setText(city);
     }
 
     private void InitRecylerView() {
@@ -220,7 +223,8 @@ public class MainActivity extends AppCompatActivity {
                     R.drawable.adaptercolor));
         }
 
-        binding.toolbarLayout.cityNameTextView.setText(convertCityName(response.getTimezone()));
+        if (binding.toolbarLayout.cityNameTextView.getText().toString().equals(""))
+            binding.toolbarLayout.cityNameTextView.setText(convertCityName(response.getTimezone()));
 
         binding.contentMainLayout.tempTextView.setText(response.getCurrentWeather().getTemperature() + "");
         binding.contentMainLayout.descriptionTextView.setText(response.WeatherCodeString(response.getCurrentWeather().getWeathercode()));
@@ -288,9 +292,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void InitSearchView() {
-
-
-
         binding.toolbarLayout.searchView.setOnQueryTextFocusChangeListener((view, b) -> {
             if (b) {
                 binding.toolbarLayout.cityNameTextView.setVisibility(View.INVISIBLE);
@@ -422,7 +423,7 @@ public class MainActivity extends AppCompatActivity {
             if (result) {
                 while(latitude == 0 || longitude == 0) {
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(500);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -486,8 +487,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
 
             case R.id.calendar:
-                // User chose the "Favorite" action, mark the current item
-                // as a favorite...
+                Intent k = new Intent(this, Planner_main.class);
+                startActivity(k);
                 return true;
 
             default:
