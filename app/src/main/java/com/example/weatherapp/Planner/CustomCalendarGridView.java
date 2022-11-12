@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -29,6 +30,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.weatherapp.R;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -36,6 +38,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.IntStream;
@@ -147,14 +150,20 @@ public class CustomCalendarGridView extends LinearLayout {
                     if(eventAlert.isChecked()) {
                         notify.set("on");
                         Calendar cal = Calendar.getInstance();
+                        Log.i("Time : ", cal.toString());
                         cal.setTime(selectedDate);
                         cal.set(Calendar.HOUR_OF_DAY,calendar1.get(Calendar.HOUR_OF_DAY));
                         cal.set(Calendar.MINUTE,calendar1.get(Calendar.MINUTE));
+                        Log.i("Time : ", cal.toString());
 
                         String event_name = eventName.getText().toString(),
                                 event_time = eventTime.getText().toString();
 
-                        alertRelease(cal,getEventID(simpleDateFormat.format(selectedDate),event_time,event_name),event_name,event_time);
+                        try {
+                            alertRelease(cal,getEventID(simpleDateFormat.format(selectedDate),event_time,event_name),event_name,event_time);
+                        } catch (ParseException e) {
+                            e.printStackTrace();
+                        }
                     }
                     else{
                         // Do nothing
@@ -312,8 +321,9 @@ public class CustomCalendarGridView extends LinearLayout {
         return ID.get();
     }
 
-    protected void alertRelease(Calendar calendar, int id, String event, String time){
+    protected void alertRelease(Calendar calendar, int id, String event, String time) throws ParseException {
 
+        AlarmManager alarmManager = (AlarmManager) context.getApplicationContext().getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(context.getApplicationContext(),MyAlertBroadcast.class);
         Bundle bundle = new Bundle();
         bundle.putString("EVENT",event);
@@ -322,8 +332,7 @@ public class CustomCalendarGridView extends LinearLayout {
         intent.putExtras(bundle);
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context,id,intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
-        AlarmManager alarmManager = (AlarmManager) context.getApplicationContext().getSystemService(Context.ALARM_SERVICE);
-        alarmManager.setExact(AlarmManager.RTC_WAKEUP,calendar.get(Calendar.MILLISECOND),pendingIntent);
 
+        alarmManager.setExact(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),pendingIntent);
     }
 }
