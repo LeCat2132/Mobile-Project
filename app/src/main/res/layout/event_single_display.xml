@@ -35,7 +35,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Date"
+                    android:text="@string/date"
                     android:textColor="@color/purple_200"
                     android:textSize="14sp"
                     android:textStyle="bold"
@@ -47,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Time"
+                    android:text="@string/time"
                     android:textColor="@android:color/holo_blue_light"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -61,7 +61,7 @@
                 android:minHeight="60dp"
                 android:layout_weight="2"
                 android:gravity="center"
-                android:text="Event"
+                android:text="@string/event"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -80,7 +80,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
-                android:text="Delete" />
+                android:text="@string/delete" />
         </LinearLayout>
 
 

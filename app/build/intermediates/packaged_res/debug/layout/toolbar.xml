@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            app:defaultQueryHint="Search location here" />
+            app:defaultQueryHint="@string/search_hint" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/city_name_text_view"

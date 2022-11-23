@@ -141,9 +141,14 @@
                                 android:gravity="center"
                                 android:fontFamily="@font/roboto_thin"
                                 android:textColor="@color/TextColor"
-                                android:text="Sunrise: "
+                                android:text="@string/sunrise"
                                 android:textSize="@dimen/text_size"
                                 android:textStyle="bold"/>
+
+                            <View
+                                android:layout_width="@dimen/spacing_medium"
+                                android:layout_height="0dp" />
+
                             <TextView
                                 android:id="@+id/txtSunrise"
                                 android:layout_width="wrap_content"
@@ -166,11 +171,16 @@
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginTop="5dp"
                                 android:gravity="center"
-                                android:text="Sunset: "
+                                android:text="@string/sunset"
                                 android:fontFamily="@font/roboto_thin"
                                 android:textSize="@dimen/text_size"
                                 android:textColor="@color/TextColor"
                                 android:textStyle="bold"/>
+
+                            <View
+                                android:layout_width="@dimen/spacing_medium"
+                                android:layout_height="0dp" />
+
                             <TextView
                                 android:id="@+id/txtSunset"
                                 android:layout_width="wrap_content"

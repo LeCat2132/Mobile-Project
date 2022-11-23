@@ -333,6 +333,6 @@ public class CustomCalendarGridView extends LinearLayout {
 
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context,id,intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
-        alarmManager.setExact(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),pendingIntent);
+        alarmManager.setExact(AlarmManager.RTC_WAKEUP,calendar.get(Calendar.MILLISECOND),pendingIntent);
     }
 }

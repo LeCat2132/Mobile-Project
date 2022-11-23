@@ -14,13 +14,13 @@
             <item
                 android:id="@+id/note"
                 android:icon="@drawable/ic_edit_note"
-                android:title="Notes"
+                android:title="@string/notes"
                 app:showAsAction="never"/>
 
             <item
                 android:id="@+id/calendar"
                 android:icon="@drawable/ic_baseline_calendar_month_24"
-                android:title="Planner"
+                android:title="@string/planner"
                 app:showAsAction="never"/>
 
         </menu>
